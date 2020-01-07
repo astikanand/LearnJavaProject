@@ -2,15 +2,14 @@
 
 For learning and practicing coding to learn various concepts of Java.
 
-## Various Concepts
 
-### Introduction
+## Introduction
 - About Java
 - Naming Conventions
 - Handling Java Installation and Un-installation
 
 
-### JVM Architecture
+## JVM Architecture
 - Class Loader Subsystem
     - Loading
     - Linking
@@ -21,7 +20,7 @@ For learning and practicing coding to learn various concepts of Java.
 - Execution Engine
 
 
-### Java Basics
+## Java Basics
 - Java Environment
 
 - Java Basic Syntax
@@ -71,7 +70,7 @@ For learning and practicing coding to learn various concepts of Java.
     - do while loop
 
    
-### Java OOPs
+## Java OOPs
 - Classes, Objects (Instances), Methods
     - Class
     - Object
@@ -100,7 +99,7 @@ For learning and practicing coding to learn various concepts of Java.
     - Interfaces
 
 
-### Java  Collections
+## Java  Collections
 - List
     - ArrayList
     - LinkedList
