@@ -1,0 +1,9 @@
+**/.DS_Store
+**/.idea
+**/test
+**/*.iml
+**/misc.xml
+**/modules.xml
+**/vcs.xml
+**/target
+**/out
