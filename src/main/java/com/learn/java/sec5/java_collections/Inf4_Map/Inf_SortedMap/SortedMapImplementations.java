@@ -5,8 +5,6 @@ import java.util.TreeMap;
 
 public class SortedMapImplementations {
     public static void main(String[] args){
-        // Create a TreeMap using :=> TreeMap
         SortedMap<String, Integer> students = new TreeMap<>((s1, s2) -> s2.compareTo(s1));
-        students.
     }
 }
