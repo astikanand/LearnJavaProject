@@ -5,7 +5,7 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.ListIterator;
 
-public class Ex5IterateOverArrayList {
+public class Ex4IterateOverArrayList {
     public static void main(String[] args){
         List<String> tvShows = new ArrayList<>();
         tvShows.add("Breaking Bad");
@@ -26,7 +26,7 @@ public class Ex5IterateOverArrayList {
         }
 
         // Iterate by Java8 forEach and lambda using :=> forEach(e -> { action using e })
-        System.out.println("=== Iterate using Java 8 forEach and lambda ===");
+        System.out.println("\n=== Iterate using Java 8 forEach and lambda ===");
         tvShows.forEach(tvShow -> {
             System.out.println(tvShow);
         });
@@ -55,5 +55,15 @@ public class Ex5IterateOverArrayList {
             String tvShow = tvShowListIterator.previous();
             System.out.println(tvShow);
         }
+
+        // Modify list while traversing by removing elements using :=> iterator.remove()
+        tvShowIterator = tvShows.iterator();
+        while (tvShowIterator.hasNext()){
+            String movieName = tvShowIterator.next();
+            if (movieName.startsWith("Game") || movieName.endsWith("Bad")){
+                tvShowIterator.remove();
+            }
+        }
+        System.out.println("\n=== Final Movies List after iterator.remove() : ===\n" + tvShows);
     }
 }

@@ -3,7 +3,7 @@ package com.learn.java.sec5.java_collections.Inf1_List.Impl1_ArrayList;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ex3AccessModifyElementInArrayList {
+public class Ex2AccessModifyElementInArrayList {
     public static void main(String[] args){
         List<String> topCompanies = new ArrayList<>();
 
@@ -22,8 +22,8 @@ public class Ex3AccessModifyElementInArrayList {
 
         // Retrieve the element at first, last and given index using :=> get(index)
         String bestCompany = topCompanies.get(0);
-        String thirdBestCompany = topCompanies.get(2);
         String lastCompany = topCompanies.get(topCompanies.size()-1);
+        String thirdBestCompany = topCompanies.get(2);
 
         System.out.println("Best Company: " + bestCompany);
         System.out.println("Third Best Company: " + thirdBestCompany);

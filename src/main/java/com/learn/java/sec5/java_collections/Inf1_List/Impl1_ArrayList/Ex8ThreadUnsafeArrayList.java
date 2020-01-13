@@ -6,7 +6,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class Ex10ThreadUnsafeArrayList {
+public class Ex8ThreadUnsafeArrayList {
     public static void main(String[] args) throws InterruptedException {
         List<Integer> unsafeArrayList = new ArrayList<>();
         unsafeArrayList.add(1);

@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class Ex11ThreadSafeArrayList {
+public class Ex9ThreadSafeArrayList {
     public static void main(String[] args) throws InterruptedException {
         // Creating Thread Safe ArrayList
         List<Integer> safeArrayList = Collections.synchronizedList(new ArrayList<>());

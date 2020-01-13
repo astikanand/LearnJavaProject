@@ -3,7 +3,7 @@ package com.learn.java.sec5.java_collections.Inf1_List.Impl1_ArrayList;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Ex7SearchInArrayList {
+public class Ex5SearchInArrayList {
     public static void main(String[] args){
         List<String> names = new ArrayList<>();
         names.add("John");
