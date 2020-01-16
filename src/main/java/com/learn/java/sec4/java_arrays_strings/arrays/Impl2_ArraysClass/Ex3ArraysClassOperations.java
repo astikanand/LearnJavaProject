@@ -1,4 +1,4 @@
-package com.learn.java.sec4.java_arrays_strings.arrays;
+package com.learn.java.sec4.java_arrays_strings.arrays.Impl2_ArraysClass;
 
 import java.util.Arrays;
 import java.util.List;
